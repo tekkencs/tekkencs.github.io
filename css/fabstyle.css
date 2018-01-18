@@ -429,6 +429,14 @@ img#select {
 	#return a {
 		margin-left: 0.2%;
 	}
+	.whilestanding p{
+		position: relative;
+		left: -43px;
+	}
+	.whilestanding p:nth-child(1) {
+		position: relative;
+		left: -15px;
+	}
 }
 @media only screen and (min-width: 500px) {
 	[class*="col-"] {
@@ -486,7 +494,7 @@ img#select {
 		white-space: nowrap;
 	}	
 	.whilestanding ul{		
-		margin-left: -65px;
+		margin-left: -68px;
 	}	
 	#alisa_start {
 		padding-right:67.2%;
