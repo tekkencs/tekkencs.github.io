@@ -405,6 +405,13 @@ img#select {
 	#plusframe {
 		position: relative;
 		left: -50%
+	}	
+	#guide {
+		position: absolute;
+		left: 120%;
+		top: 80%;
+		width: 10%;
+		height: auto;
 	}
 }
 @media only screen and (min-width: 500px) {
@@ -551,5 +558,12 @@ img#select {
 	}
 	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3 {
 		font-size: 100%;
+	}
+	#guide {
+		position: absolute;
+		left: 90%;
+		top: 80%;
+		width: 4%;
+		height: auto;
 	}
 }
