@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tekken Cheat Sheet</title>
+	<script src="script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/fabstyle.css">
+	<link rel="icon" href="./img/favi.png">
+</head>
+<body>
+	<div class="intro">
+		<img class="logo" src="img/headlogo.png">
+		<p>
+			A Cheat Sheet for Tekken 7!
+			<a id="outsidelink" href="./img/guide.jpg" target="_blank">
+				<img style="position: absolute;left: 90%;top: 80%;width: 4%;height: auto;" src="./img/qm.png">
+			</a>
+		</p>
+	</div>
+	<div align="center">
+		<input type="text" id="charlookupinput" onkeyup="charlookupfunc()" placeholder="Search for character..">
+	</div>
+	<div>
+	<ul class="row" id="char">
+		<li class="col-1">
+			<a href="./char/dj.html">Devil Jin<img id="select" src="./img/djface.png"></a>
+		</li>
+		<li class="col-2">
+			<a href="./char/bry.html">Bryan<p class="hidden">Fury</p><img id="select" src="./img/bryanface.png"></a>
+		</li>
+   		<li class="col-3">
+			<a href="./char/eliza.html">Eliza<img id="select" src="./img/elizaface.png"></a>
+		</li>
+		<li class="col-4">
+			<a href="./char/kazumi.html">Kazumi<p class="hidden">Mishima</p><img id="select" src="./img/kazumiface.png"></a>
+		</li>
+		<li class="col-1">
+			<a href="./char/ed.html">Eddy<p class="hidden">Gordo</p><img id="select" src="./img/edface.png"></a>
+		</li>
+		<li class="col-2">
+			<a href="./char/kazuya.html">Kazuya<p class="hidden">Mishima</p><img id="select" src="./img/kazuyaface.png"></a>
+		</li>
+		<li class="col-3">
+			<a href="./char/akuma.html">Akuma<img id="select" src="./img/akface.png"></a>
+		</li>
+		<li class="col-4">
+			<a href="./char/ling.html">Ling<p class="hidden">Xiaoyu</p><img id="select" src="./img/lingface.png" alt="Xiaoyu"></a>
+		</li>
+		<li class="col-1">
+			<a href="./char/yoshi.html">Yoshi<p class="hidden">mitsu</p><img id="select" src="./img/yoshiface.png"></a>
+		</li>
+		<li class="col-2">
+			<a href="./char/gig.html">Gigas<img id="select" src="./img/giface.png"></a>
+		</li>
+		<li class="col-3">
+			<a href="./char/bears.html">Bears<p class="hidden">Kuma Panda</p><img id="select" src="./img/bearsface.png"></a>
+		</li>
+		<li class="col-4">
+			<a href="./char/lee.html">Lee<p class="hidden">Chaolan Violet</p><img id="select" src="./img/leeface.png"></a>
+		</li>
+		<li class="col-1">
+			<a href="./char/bob.html">Bob<p class="hidden">Richards</p><img id="select" src="./img/bobface.png"></a>
+		</li>
+		<li class="col-2">
+			<a href="./char/geese.html">Geese<p class="hidden">Howard</p><img id="select" src="./img/geeface.png"></a>
+		</li>
+		<li class="col-3">
+			<a href="./char/nina.html">Nina<img id="select" src="./img/niface.png"></a>
+		</li>
+		<li class="col-4">
+			<a href="./char/rav.html">Raven<p class="hidden">Master</p><img id="select" src="./img/ravface.png"></a>
+		</li>
+		<li class="col-1">
+			<a href="./char/miguel.html">Miguel<p class="hidden">Caballero Rojo</p><img id="select" src="./img/miface.png"></a>
+		</li>
+    	<li class="col-2">
+			<a href="./char/heihachi.html">Heihachi<p class="hidden">Mishima</p><img id="select" src="./img/heiface.png"></a>
+		</li>
+    	<li class="col-3">
+			<a href="./char/wei.html">Feng<p class="hidden">Wei</p><img id="select" src="./img/weiface.png"></a>
+		</li>
+    	<li class="col-4">
+			<a href="./char/ser.html">Sergei<p class="hidden">Dragunov</p><img id="select" src="./img/serface.png"></a>
+		</li>
+    	<li class="col-1">
+			<a href="./char/josie.html">Josie<p class="hidden">Rizal</p><img id="select" src="./img/josieface.png"></a>
+		</li>
+    	<li class="col-2">
+			<a href="./char/king.html">King<img id="select" src="./img/kingface.png"></a>
+		</li>
+    	<li class="col-3">
+			<a href="./char/jin.html">Jin<p class="hidden">Kazama</p><img id="select" src="./img/jinface.png"></a>
+		</li>
+    	<li class="col-4">
+			<a href="./char/oscar.html">Asuka<p class="hidden">Kazama</p><img id="select" src="./img/oscarface.png"></a>
+		</li>
+    	<li class="col-1">
+			<a href="./char/alisa.html">Alisa<img id="select" src="./img/alisaface.png"></a>
+		</li>
+    	<li class="col-2">
+			<a href="./char/lili.html">Lili<img id="select" src="./img/liliface.png"></a>
+		</li>
+    	<li class="col-3">
+			<a href="./char/kat.html">Katarina<p class="hidden"></p><img id="select" src="./img/katface.png"></a>
+		</li>
+    	<li class="col-4">
+			<a href="./char/clau.html">Claudio<p class="hidden">Serafino</p><img id="select" src="./img/clauface.png"></a>
+		</li>
+    	<li class="col-1">
+			<a href="./char/paul.html">Paul<p class="hidden">Phoenix</p><img id="select" src="./img/paulface.png"></a>
+		</li>
+    	<li class="col-2">
+			<a href="./char/hwo.html">Hwo<p class="hidden">arang</p><img id="select" src="./img/hwoface.png"></a>
+		</li>
+    	<li class="col-3">
+			<a href="./char/chloe.html">Chloe<p class="hidden">Lucky</p><img id="select" src="./img/chloeface.png"></a>
+		</li>
+    	<li class="col-4">
+			<a href="./char/sha.html">Shaheen<img id="select" src="./img/shaface.png"></a>
+		</li>
+    	<li class="col-1">
+			<a href="./char/lars.html">Lars<p class="hidden">Alexandersson</p><img id="select" src="./img/larsface.png"></a>
+		</li>
+    	<li class="col-2">
+			<a href="./char/jack.html">Jack-7<img id="select" src="./img/jackface.png"></a>
+		</li>
+    	<li class="col-3">
+			<a href="./char/steve.html">Steve<p class="hidden">Fox</p><img id="select" src="./img/steveface.png"></a>
+		</li>
+    	<li class="col-4">
+			<a href="./char/leo.html">Leo<p class="hidden"></p><img id="select" src="./img/leoface.png"></a>
+		</li>
+    	<li class="col-1">
+			<a href="./char/law.html">Law<p class="hidden">Marshall</p><img id="select" src="./img/lawface.png"></a>
+		</li>
+	</ul>
+	</div>
+</body>
+</html>
