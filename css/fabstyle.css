@@ -478,7 +478,7 @@ img#select {
 	.inlineblock_left ul {
 		height: 100px;
 	    overflow-x: hidden;
-	    overflow-y: scroll;
+	    overflow-y: auto;
 	    list-style:none;
 	    position: relative;
 	    top: 25px
