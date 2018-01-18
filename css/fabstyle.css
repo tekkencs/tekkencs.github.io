@@ -183,6 +183,9 @@ img#select {
 	border: solid 0px rgba(148,189,209,0.4);
 	box-shadow: 0px 0px 0px 1px rgba(148,189,209,0.4);
 }
+#return a:hover {
+	background-color: #3f3c51
+}
 .stickytop {
 	position: -webkit-sticky;
 	position: sticky;
@@ -422,6 +425,9 @@ img#select {
 		top: 80%;
 		width: 10%;
 		height: auto;
+	}
+	#return a {
+		margin-left: 0.2%;
 	}
 }
 @media only screen and (min-width: 500px) {
