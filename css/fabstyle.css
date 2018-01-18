@@ -1,6 +1,6 @@
 body {
-	background: lightblue;
-	background: linear-gradient(-90deg, rgba(108,202,233,1), rgba(244,163,151,1))
+	background: #174172;
+	background: linear-gradient(-90deg, #0b1f31, #174172)
 }
 @font-face {
 	font-family: 'Tar-ita';
@@ -83,7 +83,8 @@ img {
 	text-align: center;
 	font-size: 120%;
 	padding-bottom: 20px;
-	width: 50%
+	width: 50%;
+	color: white;
 }
 #strings li {
 	list-style-type: none;
@@ -93,6 +94,7 @@ img {
 #outsidelink {
 	background-color:unset;
 	padding:unset;
+	color: white;
 }
 #slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3 {
 	font-weight: 450;
@@ -169,14 +171,17 @@ img#select {
 }
 #return a {
 	position: absolute;
-	margin-left: 73%;
-	background-color: rgba(230,167,158,1);
+	margin-left: 19.8%;
+	background-color: #2c2a39;
 	border-radius: 4px;
 	z-index: 1;
 	padding-top: 3px;
 	padding-bottom: 3px;
 	padding-left: 5px;
 	padding-right: 5px;
+	color: rgba(210,225,255,1);
+	border: solid 0px rgba(148,189,209,0.4);
+	box-shadow: 0px 0px 0px 1px rgba(148,189,209,0.4);
 }
 .stickytop {
 	position: -webkit-sticky;
@@ -236,6 +241,7 @@ img#select {
 	position: relative;
 	left: 28px;
 	top: -6px;
+	color: white;
 }
 .inlineblock_img {
 	display: inline-block;
@@ -252,6 +258,7 @@ img#select {
 	left: 5px;
 	line-height: .65em;
 	white-space: nowrap;
+	color: white;
 }
 #feng_launch {
 	text-align: right;
@@ -291,6 +298,9 @@ img#select {
 	opacity: 0.05;
 	top: 40%;
 	left: -85%
+}
+.whitetext {
+	color: white;
 }
 @media only screen and (max-width: 599px) {
 	[class*="col-"] {
