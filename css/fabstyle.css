@@ -88,8 +88,8 @@ img {
 }
 #strings li {
 	list-style-type: none;
-	padding: 0;
-	margin: 0;
+	padding: 0px;
+	margin: 0px 0px 0px -5%;
 }
 #outsidelink {
 	background-color:unset;
@@ -266,25 +266,25 @@ img#select {
 #feng_launch {
 	text-align: right;
 	direction: rtl;
-	padding-right:88%;
+	margin-right:88%;
 	white-space: nowrap;
 }
 #feng_longer {
 	text-align: right;
 	direction: rtl;
-	padding-right:91.2%;
+	margin-right:91.2%;
 	white-space: nowrap;
 }
 #alisa_start {
 	text-align: right;
 	direction: rtl;
-	padding-right:68.2%;
+	margin-right:68.2%;
 	white-space: nowrap;
 }
 #feng_short {
 	text-align: right;
 	direction: rtl;
-	padding-right:85%;
+	margin-right:85%;
 	white-space: nowrap;
 }
 #nowrap {		
@@ -305,7 +305,16 @@ img#select {
 .whitetext {
 	color: white;
 }
-@media only screen and (max-width: 599px) {
+.standing ul{
+	margin: -15px 0px 20px;
+}
+.seelongercombo ul{
+	margin-top: -15px;
+}
+.seecombo ul{
+	margin-top: -15px;
+}
+@media only screen and (max-width: 500px) {
 	[class*="col-"] {
 		width: 100%;
 	}
@@ -321,24 +330,28 @@ img#select {
 		width: 100%
 	}	
 	.standing {
-		width: 50%;
-		left: -40px;
+		width: 30%;
+	}
+	.standing ul{
+		margin: -15px 0px 20px;
+	}
+	.standing p{
+		margin-left: 1.5%
 	}
 	.whilestanding {
 		width: 50%;
-		left: -40px;
 	}
 	.seecombo {
 		width: 84%;
+		position: relative;
+		left: 10%;
+		word-wrap: break-word;
 	}
 	.rightpanel {
 		display: none;
 	}
 	img.logo {
 		width: 100%;
-	}
-	#return a {
-		display: none;
 	}
 	.inlineblock {
 		width: 80%;
@@ -353,37 +366,40 @@ img#select {
 	}
 	.inlineblock_left {
 		display: block;
-		width: 80%;
+		width: 110%;
 		position: relative;
-		left: 2px;
-		top: 0px;
+		left: 15%;
+		top: 10px;
 	}
 	.inlineblock_right {
 		width: 10%;
 	}
 	.seelongercombo {
-		width: 84%
+		width: 84%;
 	}
 	#feng_launch {
 		text-align: right;
 		direction: rtl;
-		padding-right:85%;
+		margin-right:89%;
 		white-space: nowrap;
 	}
 	#feng_longer {
 		text-align: right;
 		direction: rtl;
-		padding-right:85%;
+		margin-right:89%;
 		white-space: nowrap;
 	}
 	#feng_short {
 		text-align: right;
 		direction: rtl;
-		padding-right:82.5%;
+		margin-right:87%;
 		white-space: nowrap;
 	}	
 	#alisa_start {
-		padding-right:83.2%;
+		margin-right:82.8%;
+	}	
+	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3 {
+		font-size: 120%;
 	}
 }
 @media only screen and (max-width: 800px) {
@@ -428,6 +444,7 @@ img#select {
 	}
 	#return a {
 		margin-left: 0.2%;
+		margin-top: 0.8%;
 	}
 	.whilestanding p{
 		position: relative;
@@ -436,6 +453,9 @@ img#select {
 	.whilestanding p:nth-child(1) {
 		position: relative;
 		left: -15px;
+	}	
+	.standing p{
+		margin-left: 9%
 	}
 }
 @media only screen and (min-width: 500px) {
@@ -478,26 +498,26 @@ img#select {
 	#feng_launch {
 		text-align: right;
 		direction: rtl;
-		padding-right:89%;
+		margin-right:91.5%;
 		white-space: nowrap;
 	}
 	#feng_longer {
 		text-align: right;
 		direction: rtl;
-		padding-right:90.2%;
+		margin-right:92%;
 		white-space: nowrap;
 	}
 	#feng_short {
 		text-align: right;
 		direction: rtl;
-		padding-right:85%;
+		margin-right:87.5%;
 		white-space: nowrap;
 	}	
 	.whilestanding ul{		
 		margin-left: -68px;
 	}	
 	#alisa_start {
-		padding-right:67.2%;
+		margin-right:44.6%;
 	}
 	.inlineblock_left ul {
 		height: 100px;
@@ -557,25 +577,25 @@ img#select {
 		width: 31%
 	}	
 	#feng_launch {
-	text-align: right;
-	direction: rtl;
-	padding-right:92%;
-	white-space: nowrap;
+		text-align: right;
+		direction: rtl;
+		margin-right:97%;
+		white-space: nowrap;
 	}
 	#feng_longer {
-	text-align: right;
-	direction: rtl;
-	padding-right:93.3%;
-	white-space: nowrap;
+		text-align: right;
+		direction: rtl;
+		margin-right:97.8%;
+		white-space: nowrap;
 	}
 	#feng_short {
-	text-align: right;
-	direction: rtl;
-	padding-right:89.5%;
-	white-space: nowrap;
+		text-align: right;
+		direction: rtl;
+		margin-right:94.5%;
+		white-space: nowrap;
 	}
 	#alisa_start {
-		padding-right:101.5%;
+		margin-right:101.9%;
 	}
 	.inlineblock_left ul {
 		top: 20px;
