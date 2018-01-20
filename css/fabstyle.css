@@ -1,6 +1,7 @@
 body {
 	background: #174172;
 	background: linear-gradient(-90deg, #0b1f31, #174172)
+	-webkit-text-size-adjust: none;
 }
 @font-face {
 	font-family: 'Tar-ita';
@@ -124,7 +125,7 @@ img {
 	padding:unset;
 }
 .punish {
-	width: 60%
+	width: 60%;
 }
 .movetype {
 	font-size: 130%;
@@ -135,6 +136,9 @@ img {
 }
 .greentext {
 	color: hsla(120,100%,50%,0.9);
+}
+.dmgtext {
+	color: #c68b96;
 }
 .standing {
 	width: 17%;
@@ -165,9 +169,6 @@ img {
 }
 img#select {
 	width: 100%
-}
-.standing p {
-	margin-left: 10px
 }
 #return a {
 	position: absolute;
@@ -405,7 +406,10 @@ img#select {
 		font-size: 120%;
 	}
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {	
+	.seelongercombo .akumatext {
+		margin-left: 36%
+	}
 	.starburst {
 		width: 58%;
 		left: 20%
@@ -461,8 +465,8 @@ img#select {
 		position: relative;
 		left: -15px;
 	}	
-	.standing p{
-		margin-left: 9%
+	.standing :not(.gimmicks) {
+		margin-left: -65%
 	}
 }
 @media only screen and (min-width: 500px) {
@@ -481,7 +485,7 @@ img#select {
 		width: 90%
 	}
 	.standing {
-		width: 15%
+		width: 15%;
 	}
 	.whilestanding {
 		width: 15%
@@ -619,5 +623,8 @@ img#select {
 		top: 80%;
 		width: 4%;
 		height: auto;
+	}
+	.seelongercombo .akumatext {
+		margin-left: 41%
 	}
 }
