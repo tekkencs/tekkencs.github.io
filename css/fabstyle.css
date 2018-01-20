@@ -1,6 +1,6 @@
 body {
 	background: #174172;
-	background: linear-gradient(-90deg, #0b1f31, #174172)
+	background: linear-gradient(-90deg, #0b1f31, #174172);
 	-webkit-text-size-adjust: none;
 }
 @font-face {
@@ -400,7 +400,7 @@ img#select {
 		white-space: nowrap;
 	}	
 	#alisa_start {
-		margin-right:82.8%;
+		margin-right: 82.8%;
 	}	
 	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3 {
 		font-size: 120%;
@@ -465,7 +465,7 @@ img#select {
 		position: relative;
 		left: -15px;
 	}	
-	.standing :not(.gimmicks) {
+	.standing :not(.gimmicks) :not(#alisa_start) {
 		margin-left: -65%
 	}
 }
@@ -528,7 +528,7 @@ img#select {
 		margin-left: -68px;
 	}	
 	#alisa_start {
-		margin-right:49.6%;
+		margin-right:65.6%;
 	}
 	.inlineblock_left ul {
 		height: 100px;
