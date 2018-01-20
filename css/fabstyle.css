@@ -321,6 +321,9 @@ img#select {
 @media only screen and (max-width: 500px) {
 	[class*="col-"] {
 		width: 100%;
+	}	
+	.standing :not(.gimmicks) :not(#alisa_start) {
+		margin-left: 5%;
 	}
 	#charlookupinput {
 		width: 90%;
@@ -336,11 +339,11 @@ img#select {
 	.standing {
 		width: 30%;
 	}
+	.standing p{
+		margin-left: -38%
+	}
 	.standing ul{
 		margin: -15px 0px 20px;
-	}
-	.standing p{
-		margin-left: 1.5%
 	}
 	.whilestanding {
 		width: 50%;
@@ -350,9 +353,6 @@ img#select {
 		position: relative;
 		left: 10%;
 		word-wrap: break-word;
-	}
-	.rightpanel {
-		display: none;
 	}
 	img.logo {
 		width: 100%;
@@ -400,7 +400,7 @@ img#select {
 		white-space: nowrap;
 	}	
 	#alisa_start {
-		margin-right: 82.8%;
+		margin-right: 115.3%;
 	}	
 	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3 {
 		font-size: 120%;
