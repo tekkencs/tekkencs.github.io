@@ -2,10 +2,44 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">		
+		.footer {
+			bottom: 0;	
+			font-weight: 450;
+			padding: 10px;
+			background-color: rgba(39,38,54,1);
+			border: solid 1px rgba(148,189,209,0.4);
+			border-radius: 1px;
+			height: 50%;
+			width: 100%;
+		}
+		.footer div{	
+		}
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		[class*="foot-"] {
+			float: left;
+			width: 29.5%;
+			padding: 15px;
+			display: inline-block;
+		}	
+	</style>
 </head>
 <body>
-	<div>
-		It's a footer.
+	<div class="row" align="center">
+		<div class="foot-1">
+			It's a footer.
+		</div>
+		<div class="foot-2">
+			It's a footer.
+		</div>
+		<div class="foot-3">
+			It's a footer.
+		</div>
 	</div>
 </body>
 </html>

@@ -318,9 +318,6 @@ img#select {
 .seecombo ul{
 	margin-top: -15px;
 }
-.footer {
-	bottom: 0;
-}
 @media only screen and (max-width: 500px) {
 	[class*="col-"] {
 		width: 100%;
@@ -629,5 +626,5 @@ img#select {
 	}
 	.seelongercombo .akumatext {
 		margin-left: 41%
-	}
+	}	
 }
