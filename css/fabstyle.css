@@ -316,10 +316,71 @@ table {
 #iframestab {
 	width:20%;	
 	text-align: start;
-	direction: ltr;
+	direction: rtl;
 }
 #stringtab {
 	width:60%
+}
+
+@media only screen and (max-width: 800px) {	
+	.seelongercombo .akumatext {
+		margin-left: 36%
+	}
+	.starburst {
+		width: 58%;
+		left: 20%
+	}
+	.inlineblock {
+		width: 120%;
+		display: flex;
+		flex-direction: column;
+		margin-left: -10%;
+	}
+	.inlineblock:nth-child(2) > .inlineblock_img {
+		width: 50%;
+		order: -1;
+		margin-bottom: -27px;
+		margin-top: 25px;
+	}
+	.inlineblock_left {
+		display: block;
+		width: 120%;
+		position: relative;
+		left: -6%;
+		top: -5px;
+	}
+	.inlineblock_right {
+		width: 10%;
+		position: absolute;
+		left: 59%;
+		top: 72%;
+	}
+	#trillgasm {
+		left: -180%
+	}
+	#plusframe {
+		position: relative;
+		left: -50%
+	}	
+	#guide {
+		position: absolute;
+		left: 120%;
+		top: 80%;
+		width: 10%;
+		height: auto;
+	}
+	#return a {
+		margin-left: 0.2%;
+		margin-top: 0.8%;
+	}
+	.whilestanding p{
+		position: relative;
+		left: -43px;
+	}
+	.whilestanding p:nth-child(1) {
+		position: relative;
+		left: -15px;
+	}	
 }
 @media only screen and (max-width: 500px) {
 	[class*="col-"] {
@@ -358,16 +419,18 @@ table {
 		margin: 20px;
 		order: -1;
 		margin-bottom: -13px;
+		left: 25%;
 	}
 	.inlineblock_left {
 		display: block;
 		width: 110%;
 		position: relative;
-		left: 15%;
-		top: 10px;
+		left: -22%;
+		top: 5px;
 	}
 	.inlineblock_right {
 		width: 10%;
+		right: -15%
 	}
 	.seelongercombo {
 		width: 84%;
@@ -395,66 +458,18 @@ table {
 	}	
 	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3, #slidetext_4, #slide_4 {
 		font-size: 120%;
-	}
-}
-@media only screen and (max-width: 800px) {	
-	.seelongercombo .akumatext {
-		margin-left: 36%
-	}
-	.starburst {
-		width: 58%;
-		left: 20%
-	}
-	.inlineblock {
-		width: 120%;
-		display: flex;
-		flex-direction: column;
-		margin-left: -10%;
-	}
-	.inlineblock:nth-child(2) > .inlineblock_img {
-		width: 50%;
-		order: -1;
-		margin-bottom: -27px;
-		margin-top: 25px;
-	}
-	.inlineblock_left {
-		display: block;
-		width: 120%;
-		position: relative;
-		left: -45px;
-		top: -5px;
-	}
-	.inlineblock_right {
-		width: 10%;
-		position: absolute;
-		left: 59%;
-		top: 72%;
-	}
-	#trillgasm {
-		left: -180%
-	}
+	}	
 	#plusframe {
 		position: relative;
-		left: -50%
-	}	
-	#guide {
-		position: absolute;
-		left: 120%;
-		top: 80%;
-		width: 10%;
-		height: auto;
-	}
-	#return a {
-		margin-left: 0.2%;
-		margin-top: 0.8%;
-	}
+		left: -8%
+	}		
 	.whilestanding p{
 		position: relative;
-		left: -43px;
+		left: -3px;
 	}
 	.whilestanding p:nth-child(1) {
 		position: relative;
-		left: -15px;
+		left: -8px;
 	}	
 }
 @media only screen and (min-width: 500px) {
@@ -480,9 +495,6 @@ table {
 	}
 	.seelongercombo {
 		width: 75%;
-	}
-	.inlineblock {
-		width: 68%
 	}
 	.inlineblock_img {
 		width: 28%;
