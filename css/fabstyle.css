@@ -39,8 +39,6 @@ a:active {
 }
 div {
 	position: relative;
-	left: 0px;
-	bottom: 0px;
 	margin-right: auto;
 	margin-left: auto;
 	text-decoration: none;
@@ -438,14 +436,16 @@ table {
 	}
 	.inlineblock_left {
 		display: block;
-		width: 110%;
+		width: 70%;		
+		height: 100px;
+	    overflow-x: hidden;
+	    overflow-y: auto;
 		position: relative;
-		left: -22%;
-		top: 5px;
-	}
+		left:8%;
+		top: 15px	}
 	.inlineblock_right {
 		width: 10%;
-		right: -15%
+		right: -18%
 	}
 	.seelongercombo {
 		width: 84%;
