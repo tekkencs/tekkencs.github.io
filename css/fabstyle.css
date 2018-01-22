@@ -137,6 +137,9 @@ img {
 .greentext {
 	color: hsla(120,100%,50%,0.9);
 }
+.greentext {
+	color: hsla(120,100%,50%,0.9);
+}
 .dmgtext {
 	color: #c68b96;
 }
@@ -197,12 +200,12 @@ img#select {
 }
 .akumatext {
 	color: hsla(180,100%,50%,0.8);
-	border: 0px solid;
-	border-radius: 2px;
-	box-shadow: 0px 0px 0px 2px hsla(180,100%,50%,0.4);
+	//border: 0px solid;
+	//border-radius: 2px;
+	//box-shadow: 0px 0px 0px 2px hsla(180,100%,50%,0.4);
 	padding-right: 3px;
 	padding-left: 3px;
-	word-spacing: 3px
+	word-spacing: 3px;
 }
 .starburst {
 	color: hsla(180,100%,50%,0.9);
@@ -309,9 +312,22 @@ img#select {
 .seecombo ul{
 	margin-top: -15px;
 }
+#statustext {
+	color:#fc6523
+}
+#dmgtext {
+	color:#ee0f23;
+}
+#legend {
+	position: absolute;
+	left: 65%;
+	top: -0.12%
+}
 table {
 	width:90%;
 	empty-cells: show;
+	position: relative;
+	left: 22%
 }
 #iframestab {
 	width:20%;	
@@ -321,11 +337,7 @@ table {
 #stringtab {
 	width:60%
 }
-
 @media only screen and (max-width: 800px) {	
-	.seelongercombo .akumatext {
-		margin-left: 36%
-	}
 	.starburst {
 		width: 58%;
 		left: 20%
@@ -380,7 +392,10 @@ table {
 	.whilestanding p:nth-child(1) {
 		position: relative;
 		left: -15px;
-	}	
+	}
+	table {
+		left: 15%
+	}
 }
 @media only screen and (max-width: 500px) {
 	[class*="col-"] {
@@ -618,7 +633,4 @@ table {
 		width: 4%;
 		height: auto;
 	}
-	.seelongercombo .akumatext {
-		margin-left: 41%
-	}	
 }
