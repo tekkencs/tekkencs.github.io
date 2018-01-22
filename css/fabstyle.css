@@ -140,12 +140,6 @@ img {
 .dmgtext {
 	color: #c68b96;
 }
-.standing {
-	width: 17%;
-	font-size: 105%;
-	left: -20px;	
-	white-space: nowrap;
-}
 .whilestanding {
 	width: 10%;
 	font-size: 105%;
@@ -309,22 +303,28 @@ img#select {
 .whitetext {
 	color: white;
 }
-.standing ul{
-	margin: -15px 0px 20px;
-}
 .seelongercombo ul{
 	margin-top: -15px;
 }
 .seecombo ul{
 	margin-top: -15px;
 }
+table {
+	width:90%;
+	empty-cells: show;
+}
+#iframestab {
+	width:20%;	
+	text-align: start;
+	direction: ltr;
+}
+#stringtab {
+	width:60%
+}
 @media only screen and (max-width: 500px) {
 	[class*="col-"] {
 		width: 100%;
 	}	
-	.standing :not(.gimmicks) :not(#alisa_start) {
-		margin-left: 5%;
-	}
 	#charlookupinput {
 		width: 90%;
 		background-position: 6px 12px;
@@ -336,15 +336,6 @@ img#select {
 	.punish {
 		width: 100%
 	}	
-	.standing {
-		width: 30%;
-	}
-	.standing p{
-		margin-left: -38%
-	}
-	.standing ul{
-		margin: -15px 0px 20px;
-	}
 	.whilestanding {
 		width: 50%;
 	}
@@ -465,9 +456,6 @@ img#select {
 		position: relative;
 		left: -15px;
 	}	
-	.standing :not(.gimmicks) :not(#alisa_start) {
-		margin-left: -65%
-	}
 }
 @media only screen and (min-width: 500px) {
 	[class*="col-"] {
@@ -483,9 +471,6 @@ img#select {
 	}
 	.punish {
 		width: 90%
-	}
-	.standing {
-		width: 15%;
 	}
 	.whilestanding {
 		width: 15%
@@ -559,12 +544,6 @@ img#select {
 	}
 	.punish {
 		width: 46%
-	}
-	.standing {
-		width: 15%
-	}
-	.standing :not(.gimmicks) {
-		margin-left: -25%;
 	}
 	.whilestanding {
 		width: 22%
