@@ -97,7 +97,7 @@ img {
 	padding:unset;
 	color: white;
 }
-#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3 {
+#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3, #slidetext_4, #slide_4 {
 	font-weight: 450;
 	padding: 10px;
 	text-align: center;
@@ -106,7 +106,7 @@ img {
 	color: white;
 	border-radius: 1px;
 }
-#slidetext, #slidetext_1, #slidetext_2, #slidetext_3 {
+#slidetext, #slidetext_1, #slidetext_2, #slidetext_3, #slidetext_4 {
 	padding: 10px;
 	display: none;
 	text-align: left;
@@ -402,7 +402,7 @@ img#select {
 	#alisa_start {
 		margin-right: 115.3%;
 	}	
-	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3 {
+	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3, #slidetext_4, #slide_4 {
 		font-size: 120%;
 	}
 }
@@ -541,7 +541,7 @@ img#select {
 	    position: relative;
 	    top: 25px
 	}
-	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3 {
+	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3, #slidetext_4, #slide_4 {
 		font-size: 120%;
 	}
 }
