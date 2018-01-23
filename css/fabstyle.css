@@ -221,9 +221,6 @@ img#select {
 }
 .elizatext {
 	color: hsla(0,100%,50%,0.8);
-	border: 0px solid;
-	border-radius: 2px;
-	box-shadow: 0px 0px 0px 2px hsla(0,100%,50%,0.4);
 	padding-right: 3px;
 	padding-left: 3px;
 	word-spacing: 3px
