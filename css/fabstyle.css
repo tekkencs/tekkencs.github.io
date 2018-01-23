@@ -353,16 +353,17 @@ table {
 		left: 20%
 	}
 	.inlineblock {
-		width: 120%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		margin-left: -10%;
 	}
 	.inlineblock:nth-child(2) > .inlineblock_img {
-		width: 50%;
+		width: 60%;
 		order: -1;
 		margin-bottom: -27px;
 		margin-top: 25px;
+		margin-left: 20%
 	}
 	.inlineblock_left {
 		display: block;
@@ -453,11 +454,11 @@ table {
 	    overflow-x: hidden;
 	    overflow-y: auto;
 		position: relative;
-		left:8%;
+		left:2%;
 		top: 15px	}
 	.inlineblock_right {
 		width: 10%;
-		right: -18%
+		right: -6%
 	}
 	.seelongercombo {
 		width: 84%;
@@ -497,7 +498,7 @@ table {
 	.whilestanding p:nth-child(1) {
 		position: relative;
 		left: -8px;
-	}	
+	}
 }
 @media only screen and (min-width: 500px) {
 	[class*="col-"] {
