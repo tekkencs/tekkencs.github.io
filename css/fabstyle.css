@@ -85,10 +85,9 @@ img {
 	width: 50%;
 	color: white;
 }
-#strings li {
+.standing li {	
 	list-style-type: none;
 	padding: 0px;
-	margin: 0px 0px 0px -5%;
 }
 #outsidelink {
 	background-color:unset;
@@ -146,6 +145,11 @@ img {
 	font-size: 105%;
 	left: -10px;
 	white-space: nowrap;
+}
+#strings li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 .seecombo {
 	font-size: 105%;
@@ -319,7 +323,8 @@ img#select {
 #legend {
 	position: absolute;
 	left: 65%;
-	top: -0.12%
+	top: -0.12%;
+	opacity: 0.6
 }
 table {
 	width:90%;
@@ -335,7 +340,17 @@ table {
 #stringtab {
 	width:60%
 }
-@media only screen and (max-width: 800px) {	
+@media only screen and (max-width: 800px) {		
+	.seecombo {
+		width: 78%;
+		position: relative;
+		left: 8%;
+		word-wrap: break-word;
+	}	
+	.seelongercombo .seecombo{
+		position: relative;
+		left: -2%
+	}
 	.starburst {
 		width: 58%;
 		left: 20%
@@ -506,7 +521,7 @@ table {
 		width: 15%
 	}
 	.seecombo {
-		width: 65%
+		width: 85%
 	}
 	.seelongercombo {
 		width: 75%;
@@ -524,13 +539,13 @@ table {
 	#feng_launch {
 		text-align: right;
 		direction: rtl;
-		margin-right:92.7%;
+		margin-right:90.7%;
 		white-space: nowrap;
 	}
 	#feng_longer {
 		text-align: right;
 		direction: rtl;
-		margin-right:93.3%;
+		margin-right:89.8%;
 		white-space: nowrap;
 	}
 	#feng_short {
@@ -555,7 +570,7 @@ table {
 	}
 	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3, #slidetext_4, #slide_4 {
 		font-size: 120%;
-	}
+	}	
 }
 @media only screen and (min-width: 1050px) {
 	[class*="col-"] {
@@ -602,13 +617,13 @@ table {
 	#feng_launch {
 		text-align: right;
 		direction: rtl;
-		margin-right:94.5%;
+		margin-right:90.5%;
 		white-space: nowrap;
 	}
 	#feng_longer {
 		text-align: right;
 		direction: rtl;
-		margin-right:97.5%;
+		margin-right:93.2%;
 		white-space: nowrap;
 	}
 	#feng_short {
