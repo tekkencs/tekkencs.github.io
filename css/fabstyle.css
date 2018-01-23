@@ -275,12 +275,6 @@ img#select {
 	margin-right:91.2%;
 	white-space: nowrap;
 }
-#alisa_start {
-	text-align: right;
-	direction: rtl;
-	margin-right:68.2%;
-	white-space: nowrap;
-}
 #feng_short {
 	text-align: right;
 	direction: rtl;
@@ -481,9 +475,6 @@ table {
 		margin-right:90%;
 		white-space: nowrap;
 	}	
-	#alisa_start {
-		margin-right: 115.3%;
-	}	
 	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3, #slidetext_4, #slide_4 {
 		font-size: 120%;
 	}	
@@ -555,9 +546,6 @@ table {
 	.whilestanding ul{		
 		margin-left: -68px;
 	}	
-	#alisa_start {
-		margin-right:65.6%;
-	}
 	.inlineblock_left ul {
 		height: 100px;
 	    overflow-x: hidden;
@@ -629,9 +617,6 @@ table {
 		direction: rtl;
 		margin-right:87.7%;
 		white-space: nowrap;
-	}
-	#alisa_start {
-		margin-right:101.9%;
 	}
 	.inlineblock_left ul {
 		top: 20px;
