@@ -317,7 +317,7 @@ img#select {
 	top: -0.12%;
 	opacity: 0.6
 }
-table {
+.standing table {
 	width:90%;
 	empty-cells: show;
 	position: relative;
@@ -330,6 +330,15 @@ table {
 }
 #stringtab {
 	width:60%
+}
+.counter tr:nth-child(even) {
+	background: hsla(0,0%,100%,0.07);
+}
+#punish_row1 {
+	width:50%;
+}
+#punish_row2 {
+	width:30%;
 }
 @media only screen and (max-width: 800px) {		
 	.seecombo {
@@ -615,13 +624,13 @@ table {
 	#feng_short {
 		text-align: right;
 		direction: rtl;
-		margin-right:87.7%;
+		margin-right:86.5%;
 		white-space: nowrap;
 	}
 	.inlineblock_left ul {
 		top: 20px;
 	}
-	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3 {
+	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3, #slidetext_4, #slide_4 {
 		font-size: 100%;
 	}
 	#guide {
@@ -630,5 +639,5 @@ table {
 		top: 80%;
 		width: 4%;
 		height: auto;
-	}
+	}	
 }
