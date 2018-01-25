@@ -318,7 +318,7 @@ img#select {
 	opacity: 0.6
 }
 .standing table {
-	width:90%;
+	width:80%;
 	empty-cells: show;
 	position: relative;
 	left: 22%
@@ -329,7 +329,10 @@ img#select {
 	direction: rtl;
 }
 #stringtab {
-	width:60%
+	width:55%
+}
+.counter table {
+	width:78%;
 }
 .counter tr:nth-child(even) {
 	background: hsla(0,0%,100%,0.07);
@@ -339,6 +342,9 @@ img#select {
 }
 #punish_row2 {
 	width:30%;
+}
+#yellowtext {
+	color: hsla(60,100%,50%,0.9)
 }
 @media only screen and (max-width: 800px) {		
 	.seecombo {
