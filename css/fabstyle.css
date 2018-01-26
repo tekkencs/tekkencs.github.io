@@ -74,6 +74,19 @@ div {
 	margin-bottom: 15px;
 	margin-top: -25px;
 }
+#punishlookupinput {
+	background-image: url('../img/search.png');
+	background-position: 8px 10px;
+	background-size: 5.2%;
+	background-repeat: no-repeat;
+	background-color: hsla(0,0%,0%,0.5);
+	color: white;
+	width: 44%;
+	font-size: 16px;
+	padding: 10px 15px 10px 33px;
+	border: 1px solid rgba(118,193,201,0.4);
+	margin-bottom: 5px;
+}
 img {
 	height: auto;
 	padding: 3px;
@@ -334,19 +347,28 @@ img#select {
 .counter table {
 	width:78%;
 }
-.counter tr:nth-child(even) {
+//counter tr:nth-child(even) {
+//	background: hsla(0,0%,100%,0.07);
+//}
+.stripedrow {
 	background: hsla(0,0%,100%,0.07);
 }
-#punish_row1 {
+//.stripedrow_def .counter tr:nth-child(even) {
+//	background: hsla(0,0%,100%,0.07);
+//}
+#punish_col1 {
 	width:50%;
 }
-#punish_row2 {
+#punish_col2 {
 	width:30%;
 }
 #yellowtext {
 	color: hsla(60,100%,50%,0.9)
 }
-@media only screen and (max-width: 800px) {		
+@media only screen and (max-width: 800px) {	
+	#punishlookupinput {
+		width: 70%
+	}
 	.seecombo {
 		width: 78%;
 		position: relative;
