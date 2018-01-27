@@ -33,7 +33,7 @@
 <div id="return" class="stickytop"><a href="../index.html"><strong><span style="letter-spacing:5px">Return To</span><br>Character Select</strong></a></div>
 <div class="row punish" align="center">
 	<p class="movetype"><strong>Strings</strong></p>
-	<div id="slide">Punishment (click to expand)</div>
+	<div id="slide">Punishers (click to expand)</div>
 	<div id="slidetext">
 		<div class="standing verdana" id="strings">
 			<p class="gimmicks">Standing</p>
@@ -178,6 +178,151 @@
 				<li>BOK 3 (<span class="greentext">+9</span>)</li>
 				<li>BOK 4 (<span class="greentext">+8</span>)</li>
 			</ul>
+		</div>
+	</div>
+	<p></p>
+	<div id="slide_4">Counter punishment</div>
+	<div id="slidetext_4">
+		<div align="center">
+			<input type="text" id="punishlookupinput" onkeyup="punishlookupfunc()" placeholder="Filter by command, level or on block frames.." autofocus>
+		</div>
+		<div class="counter verdana" id="strings" align="center">
+			<table cellspacing="8" rules="none" id="punishlookup">
+				<tr class="whitetext">
+					<th id="punish_col1">Command</th><th id="punish_col2">Hit level</th><th>On block</th>
+				</tr>
+				<tr><td>in rage d/f+1+2</td><td>m</td><td>-22</td></tr>
+				<tr><td>in rage f, F+2*</td><td>m</td><td>+6 (wl+12g)</td></tr>
+				<tr><td>1</td><td>h</td><td>+1</td></tr>
+				<tr><td>1, 2</td><td>h, h</td><td>-1</td></tr>
+				<tr><td>1, 2, B</td><td>h, h, (KNK)</td><td>-10</td></tr>
+				<tr><td>1, 2, 1</td><td>h, h, h</td><td>-5~-4</td></tr>
+				<tr><td>1, 2, 1, 1</td><td>h, h, h, m</td><td>-13</td></tr>
+				<tr><td>1, 2, 1, 4</td><td>h, h, h, h</td><td>-6~-4</td></tr>
+				<tr><td>1, 2, 4</td><td>h, h, l</td><td>-13</td></tr>
+				<tr><td>1, 4</td><td>h, h</td><td>-4</td></tr>
+				<tr><td>2</td><td>h</td><td>-1</td></tr>
+				<tr><td>2, 1</td><td>h, h</td><td>-7~-6</td></tr>
+				<tr><td>2, 2</td><td>h, m</td><td>-13</td></tr>
+				<tr><td>3</td><td>h</td><td>-8</td></tr>
+				<tr><td>3, 2</td><td>h, h</td><td>-2</td></tr>
+				<tr><td>3, 2, D</td><td>h, h, (BOK)</td><td>-6</td></tr>
+				<tr><td>3, 2, 3</td><td>h, h, m</td><td>-7~-6</td></tr>
+				<tr><td>3, 2, 3, B (Cancel)</td><td>h, h, (Special)</td><td>-15</td></tr>
+				<tr><td>3, 2, 4</td><td>h, h, m, (KNK)</td><td>+8~+9</td></tr>
+				<tr><td>4</td><td>h</td><td>-7</td></tr>
+				<tr><td>1+2</td><td>m</td><td>-12</td></tr>
+				<tr><td>2+3</td><td>m(Absorbs 1 h/m hit)</td><td>-8~-7</td></tr>
+				<tr><td>f+2</td><td>h</td><td>-5~-3</td></tr>
+				<tr><td>f+2, 2</td><td>h, m</td><td>-12~-11</td></tr>
+				<tr><td>f+3</td><td>h</td><td>0~+1</td></tr>
+				<tr><td>f+3, D</td><td>h, (BOK)</td><td>+1~+2</td></tr>
+				<tr><td>f+1+2</td><td>m</td><td>-17~-16</td></tr>
+				<tr><td>f+2+3</td><td>h</td><td>-9~-8</td></tr>
+				<tr><td>d/f+1</td><td>m</td><td>-1~0</td></tr>
+				<tr><td>d/f+1, 2</td><td>m, h</td><td>-6</td></tr>
+				<tr><td>d/f+2</td><td>m</td><td>-13~-12</td></tr>
+				<tr><td>d/f+3 (Homing)</td><td>m</td><td>-9~-7</td></tr>
+				<tr><td>d/f+4</td><td>m</td><td>-6</td></tr>
+				<tr><td>d/f+2+3</td><td>l (TC)</td><td>-15~-14</td></tr>
+				<tr><td>d+1</td><td>m</td><td>-3~-2</td></tr>
+				<tr><td>d+1, D</td><td>m</td><td>-3~-2</td></tr>
+				<tr><td>d+2</td><td>m</td><td>+2s</td></tr>
+				<tr><td>d+4</td><td>l</td><td>-12~-11</td></tr>
+				<tr><td>d+4, 2</td><td>l, h</td><td>-5~-4</td></tr>
+				<tr><td>d/b+2</td><td>h</td><td>-17~-16</td></tr>
+				<tr><td>d/b+2, 2</td><td>h, m</td><td>-7~-6</td></tr>
+				<tr><td>d/b+3</td><td>h</td><td>-8~-7</td></tr>
+				<tr><td>d/b+4 (Close)</td><td>l (TC)</td><td>-31</td></tr>
+				<tr><td>d/b+4</td><td>l (TC)</td><td>-31</td></tr>
+				<tr><td>d/b+4, 1</td><td>l (TC), m</td><td>-16~-15</td></tr>
+				<tr><td>d/b+1+2</td><td>m</td><td>-9~-7</td></tr>
+				<tr><td>d/b+1+2, 1</td><td>m, m</td><td>-12~-11</td></tr>
+				<tr><td>d/b+1+2, D</td><td>m, (BOK)</td><td>-12~-10</td></tr>
+				<tr><td>b+1</td><td>m</td><td>-12~-11</td></tr>
+				<tr><td>b+1, 4</td><td>m, m, (KNK)</td><td>+8~+9</td></tr>
+				<tr><td>b+2</td><td>m</td><td>-11</td></tr>
+				<tr><td>b+2, 1</td><td>m, h</td><td>-4~-3</td></tr>
+				<tr><td>b+2, 1+2</td><td>m, m</td><td>-11~-10s</td></tr>
+				<tr><td>b+3</td><td>m</td><td>-7~-8</td></tr>
+				<tr><td>b+3, 1</td><td>m, m</td><td>-7</td></tr>
+				<tr><td>b+3, 1, B</td><td>m, m, (KNK)</td><td>-11</td></tr>
+				<tr><td>b+3, 1, D</td><td>m, m, (BOK)</td><td>-8</td></tr>
+				<tr><td>b+4</td><td>m</td><td>-8</td></tr>
+				<tr><td>b+4, 1+2</td><td>m, m</td><td>-9~-8</td></tr>
+				<tr><td>b+1+4</td><td>hl</td><td>-13</td></tr>
+				<tr><td>b+1+4 (First hit only)</td><td>h</td><td>-15</td></tr>
+				<tr><td>b+1+4 (Second hit only)</td><td>l</td><td>-13</td></tr>
+				<tr><td>b+2+3</td><td>!</td><td>KND</td></tr>
+				<tr><td>u/f+1</td><td>h</td><td>-1</td></tr>
+				<tr><td>u/f+1, 1</td><td>h, h</td><td>-9~-8</td></tr>
+				<tr><td>u/f+1, 2</td><td>h, m</td><td>-14~-13</td></tr>
+				<tr><td>u/f+2</td><td>m</td><td>-14~-11</td></tr>
+				<tr><td>u/f+2, 1</td><td>m, m</td><td>-8~-7</td></tr>
+				<tr><td>u+3</td><td>m (TJ)</td><td>-9</td></tr>
+				<tr><td>u/f+3</td><td>m (TJ)</td><td>-9</td></tr>
+				<tr><td>u/b+4</td><td>m (TJ)</td><td>-19~-18</td></tr>
+				<tr><td>u+4</td><td>m (TJ)</td><td>-13~-12</td></tr>
+				<tr><td>u/f+4</td><td>m (TJ)</td><td>-13~-12</td></tr>
+				<tr><td>u<span id="dmgtext">_</span>u/f+3+4</td><td>m (TJ)</td><td>-1~+3s</td></tr>
+				<tr><td>f, F+2</td><td>m</td><td>-10~-9</td></tr>
+				<tr><td>f, F+3</td><td>m (TJ)</td><td>-4~-1s</td></tr>
+				<tr><td>f, F+3, D</td><td>m (TJ), (BOK)</td><td>+1~+4s</td></tr>
+				<tr><td>f, F+4</td><td>m</td><td>-13~-12</td></tr>
+				<tr><td>f, F+4, 3</td><td>m, h</td><td>-12~-10</td></tr>
+				<tr><td>f, F+4, 3, 4</td><td>m, h, l</td><td>-12~-10</td></tr>
+				<tr><td>b, f+1+2</td><td>m</td><td>-24~-23</td></tr>
+				<tr><td>b, f+1+2, 1+2</td><td>m, m</td><td>-14~-13</td></tr>
+				<tr><td>b, f+1+2, 1+2, 2</td><td>m, m, m</td><td>-16~-15</td></tr>
+				<tr><td>b, f+1+2, 1+2, qcf+2</td><td>m, m, m</td><td>-16~-15</td></tr>
+				<tr><td>f, f, f+3</td><td>m (TJ)</td><td>+9~+12g</td></tr>
+				<tr><td>WS+1</td><td>m</td><td>-8~-7</td></tr>
+				<tr><td>WS+1, 4</td><td>m, l</td><td>-12~-11</td></tr>
+				<tr><td>WS+1, 4, 1</td><td>m, l, m</td><td>-14</td></tr>
+				<tr><td>WS+2</td><td>m?</td><td>-13~-12</td></tr>
+				<tr><td>WS+3</td><td>m</td><td>-6~-5</td></tr>
+				<tr><td>WS+3, 1</td><td>m, m</td><td>-15</td></tr>
+				<tr><td>WS+3, 1, 2</td><td>m, m, h</td><td>-18~-17</td></tr>
+				<tr><td>WS+4</td><td>m</td><td>-10~-9</td></tr>
+				<tr><td>WS+4, 1+2</td><td>m, m</td><td>-10~-8</td></tr>
+				<tr><td>WS+1+2</td><td>m</td><td>-15~-13</td></tr>
+				<tr><td>FC+d/f+3</td><td>l</td><td>-26</td></tr>
+				<tr><td>SS+1+2</td><td>m</td><td>-10</td></tr>
+				<tr><td>BT 1+2</td><td>m</td><td>-20</td></tr>
+				<tr><td>Opponent Down d+3+4</td><td>On grounded opponent(l)</td><td>-13</td></tr>
+				<tr><td>1+2+3+4</td><td>(Special)</td><td></td></tr>
+				<tr><td>1+2+3+4, b+3</td><td>m</td><td>-7~-6</td></tr>
+				<tr><td>1+2+3+4, b+3, 1</td><td>m, m</td><td>-7</td></tr>
+				<tr><td>1+2+3+4, b+3, 1, 2</td><td>m, m, m</td><td>-15~-14</td></tr>
+				<tr><td>1+2+3+4, d/b+4</td><td>l (TC)</td><td>-31</td></tr>
+				<tr><td>1+2+3+4, d/b+4, 1</td><td>l, m</td><td>-14</td></tr>
+				<tr><td>1+2+3+4, d/b+4, 1, 2</td><td>l, m, m</td><td>-15~-14</td></tr>
+				<tr><td>f+4</td><td>m, (KNK)</td><td>+8~+9</td></tr>
+				<tr><td>b+3+4</td><td>(KNK)</td><td></td></tr>
+				<tr><td>f+4, d/f<span id="dmgtext">_</span>KNK d/f (to CD)</td><td>m, (KNK)</td><td>-5~-4</td></tr>
+				<tr><td>KNK 1</td><td>h</td><td>-9~-8</td></tr>
+				<tr><td>KNK 1, 2</td><td>h, m</td><td>-12~-11</td></tr>
+				<tr><td>KNK 1, D</td><td>m, (BOK)</td><td>-7~-6</td></tr>
+				<tr><td>KNK 2</td><td>h</td><td>-4~-2</td></tr>
+				<tr><td>KNK 3</td><td>m (TJ)</td><td>-13~-12</td></tr>
+				<tr><td>KNK 3, 4</td><td>m (TJ), m</td><td>-12~-10</td></tr>
+				<tr><td>KNK 4</td><td>l</td><td>-12~-11</td></tr>
+				<tr><td>d+1+2<span id="dmgtext">_</span>FC+d/b<span id="dmgtext">_</span>d+1+2</td><td>(Special) (TC)(BOK)</td><td></td></tr>
+				<tr><td>BOK 1</td><td>m</td><td>-4</td></tr>
+				<tr><td>BOK 1, 2</td><td>m, m</td><td>-14~-13</td></tr>
+				<tr><td>BOK 2</td><td>m</td><td>-9~-8</td></tr>
+				<tr><td>BOK 3 (Homing)</td><td>h (TJ)</td><td>+9</td></tr>
+				<tr><td>BOK 4</td><td>m, (KNK)</td><td>+8</td></tr>
+				<tr><td>BOK 1+2</td><td>h</td><td>-9</td></tr>
+				<tr><td>qcf<span id="dmgtext">_</span>KNK D/F</td><td>(CD)</td><td></td></tr>
+				<tr><td>qcf+1</td><td>l (TC)</td><td>-13~-12</td></tr>
+				<tr><td>qcf+2</td><td>m</td><td>-9</td></tr>
+				<tr><td>qcf+2, B</td><td>m, (KNK)</td><td>-9</td></tr>
+				<tr><td>qcf+2, 1</td><td>m, m</td><td>-9~-8</td></tr>
+				<tr><td>qcf+3+4</td><td>mm (TJ)</td><td>-6~-4</td></tr>
+				<tr><td>qcf+3+4 [1] (Homing)</td><td>m (TJ)</td><td>-17</td></tr>
+				<tr><td>d, D/F, n</td><td></td><td></td></tr>
+			</table>
 		</div>
 	</div>
 </div>
