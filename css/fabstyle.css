@@ -606,6 +606,11 @@ img#select {
 		font-size: 120%;
 	}	
 }
+@media only screen and (min-width: 900px) {
+	#return a {
+		margin-left: 18.1%
+	}
+}
 @media only screen and (min-width: 1050px) {
 	[class*="col-"] {
 		width: 23.9999%;
