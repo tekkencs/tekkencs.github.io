@@ -365,6 +365,17 @@ img#select {
 #yellowtext {
 	color: hsla(60,100%,50%,0.9)
 }
+.seelongercombo table {
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+}
+.seelongercombo td {	
+ 	padding: 0px 10px 0px 10px
+}
+.seelongercombo table :nth-child(even){
+	background: hsla(0,0%,100%,0.07);
+}
 @media only screen and (max-width: 800px) {	
 	#punishlookupinput {
 		width: 77%
