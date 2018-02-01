@@ -347,15 +347,9 @@ img#select {
 .counter table {
 	width:78%;
 }
-//counter tr:nth-child(even) {
-//	background: hsla(0,0%,100%,0.07);
-//}
 .stripedrow {
 	background: hsla(0,0%,100%,0.07);
 }
-//.stripedrow_def .counter tr:nth-child(even) {
-//	background: hsla(0,0%,100%,0.07);
-//}
 #punish_col1 {
 	width:50%;
 }
@@ -369,13 +363,13 @@ img#select {
 	display: flex;
  	align-items: center;
  	justify-content: center;
+}.seelongercombo table th {
+	text-align: start;
+	direction: rtl;
 }
 .seelongercombo td {	
  	padding: 0px 10px 0px 10px
 }
-//.seelongercombo table :nth-child(even){
-//	background: hsla(0,0%,100%,0.07);
-//}
 @media only screen and (max-width: 800px) {	
 	#punishlookupinput {
 		width: 77%
@@ -606,11 +600,7 @@ img#select {
 		font-size: 120%;
 	}	
 }
-@media only screen and (min-width: 900px) {
-	#return a {
-		margin-left: 18.1%
-	}
-}
+
 @media only screen and (min-width: 1050px) {
 	[class*="col-"] {
 		width: 23.9999%;
