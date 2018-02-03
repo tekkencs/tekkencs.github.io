@@ -363,7 +363,8 @@ img#select {
 	display: flex;
  	align-items: center;
  	justify-content: center;
-}.seelongercombo table th {
+}
+.seelongercombo table th {
 	text-align: start;
 	direction: rtl;
 }
