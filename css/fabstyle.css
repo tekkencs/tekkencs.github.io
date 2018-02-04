@@ -441,8 +441,8 @@ img#select {
 		position: relative;
 		left: -15px;
 	}
-	table {
-		left: 15%
+	.seelongercombo table {
+		max-width: 35em
 	}
 }
 @media only screen and (max-width: 500px) {
@@ -601,8 +601,7 @@ img#select {
 		font-size: 120%;
 	}	
 }
-
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 992px) {
 	[class*="col-"] {
 		width: 23.9999%;
 	}
@@ -627,16 +626,19 @@ img#select {
 		width: 32%
 	}
 	.seecombo {
-		width: 45%
+		width: 45%;
+		min-width: 25em
 	}
 	.seelongercombo {
 		width: 65%
 	}
 	.inlineblock {
-		width: 50%;
+		width: 50%;		
+		min-width: 60em;
 	}
 	.inlineblock_left {
-		width: 25%
+		width: 25%;
+		min-width: 15em;
 	}
 	.inlineblock_right {
 		width: 25%;
@@ -659,7 +661,7 @@ img#select {
 	#feng_short {
 		text-align: right;
 		direction: rtl;
-		margin-right:86.5%;
+		margin-right:91.5%;
 		white-space: nowrap;
 	}
 	.inlineblock_left ul {
@@ -674,5 +676,6 @@ img#select {
 		top: 80%;
 		width: 4%;
 		height: auto;
-	}	
+	}
+
 }
