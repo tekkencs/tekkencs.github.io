@@ -363,6 +363,7 @@ img#select {
 	display: flex;
  	align-items: center;
  	justify-content: center;
+ 	min-width: 25em
 }
 .seelongercombo table th {
 	text-align: start;
@@ -381,10 +382,6 @@ img#select {
 		left: 8%;
 		word-wrap: break-word;
 	}	
-	.seelongercombo .seecombo{
-		position: relative;
-		left: -2%
-	}
 	.starburst {
 		width: 58%;
 		left: 20%
@@ -440,9 +437,6 @@ img#select {
 	.whilestanding p:nth-child(1) {
 		position: relative;
 		left: -15px;
-	}
-	.seelongercombo table {
-		max-width: 35em
 	}
 }
 @media only screen and (max-width: 500px) {
@@ -629,6 +623,9 @@ img#select {
 		width: 45%;
 		min-width: 25em
 	}
+	.sublongercombo {
+		width: 45%;
+	}
 	.seelongercombo {
 		width: 65%
 	}
@@ -661,7 +658,7 @@ img#select {
 	#feng_short {
 		text-align: right;
 		direction: rtl;
-		margin-right:91.5%;
+		margin-right:86.5%;
 		white-space: nowrap;
 	}
 	.inlineblock_left ul {
@@ -677,5 +674,4 @@ img#select {
 		width: 4%;
 		height: auto;
 	}
-
 }
