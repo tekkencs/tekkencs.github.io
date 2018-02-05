@@ -224,13 +224,6 @@ img#select {
 }
 .starburst {
 	color: hsla(180,100%,50%,0.9);
-	border: 0px solid;
-	border-radius: 2px;
-	box-shadow: 0px 0px 0px 2px hsla(180,100%,50%,0.4);
-	padding-right: 3px;
-	width: 48%;
-	position: relative;
-	left: 25%
 }
 .elizatext {
 	color: hsla(0,100%,50%,0.8);
