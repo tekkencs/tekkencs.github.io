@@ -29,3 +29,8 @@ function punishlookupfunc() {
 $(document).ready(function(){
    	 $("#punishlookup").find("tr:odd").addClass("stripedrow");
 });
+$(document).ready(function(){
+	$("td").click(function(){
+		$(this).toggleClass("textborder")
+	})
+});

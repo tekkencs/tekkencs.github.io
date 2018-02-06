@@ -321,10 +321,11 @@ img#select {
 	opacity: 0.6
 }
 .standing table {
-	width:80%;
+	width:40%;
 	empty-cells: show;
 	position: relative;
-	left: 22%
+	left: 32%;
+	min-width: 20em
 }
 #iframestab {
 	width:20%;	
@@ -353,7 +354,7 @@ img#select {
 	display: flex;
  	align-items: center;
  	justify-content: center;
- 	min-width: 25em
+ 	min-width: 22em
 }
 .seelongercombo table th {
 	text-align: start;
@@ -428,11 +429,17 @@ img#select {
 		position: relative;
 		left: -15px;
 	}
+	.standing table {
+		left:18%
+	}
 }
 @media only screen and (max-width: 500px) {
 	[class*="col-"] {
 		width: 100%;
-	}	
+	}
+	.standing table {
+		left:12%
+	}
 	#charlookupinput {
 		width: 90%;
 		background-position: 6px 12px;
