@@ -34,3 +34,10 @@ $(document).ready(function(){
 		$(this).toggleClass("textborder")
 	})
 });
+$(function(){
+	$('.showtooltip').hover(function() { 
+	    $('.bryantt').fadeIn(150); 
+	}, function() { 
+	    $('.bryantt').fadeOut(200); 
+	});
+});
