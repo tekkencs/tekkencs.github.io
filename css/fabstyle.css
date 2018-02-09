@@ -363,9 +363,6 @@ img#select {
 .seelongercombo td {	
  	padding: 0px 10px 0px 10px
 }
-//.showtooltip:hover .bryantt {
-    display: block;
-}
 .bryantt {
 	display: none;
     background: #C8C8C8;
@@ -386,6 +383,23 @@ img#select {
 .bryantt img{	
     transform: scale(1.054);
     margin-top: -3px
+}
+.twittervid {
+	display: none;
+    background: #C8C8C8;
+    margin-left: 28px; /*pos left */
+    margin-top: -530px; /*pos left */
+    padding: 10px;
+    position: absolute;
+    z-index: 1000;
+    width:500px;
+    background-color: #3f3c51;
+    border: 1px solid rgba(118,193,201,0.4);
+    border-radius: 2px;
+}
+#twitterinx {
+	position: absolute;
+	left: 30%
 }
 @media only screen and (max-width: 800px) {	
 	#punishlookupinput {
@@ -547,7 +561,10 @@ img#select {
 	.whilestanding p:nth-child(1) {
 		position: relative;
 		left: -8px;
-	}
+	}	
+	#twitterinx {
+	left: 0.2%
+}
 }
 @media only screen and (min-width: 500px) {
 	[class*="col-"] {
@@ -614,7 +631,7 @@ img#select {
 	}
 	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3, #slidetext_4, #slide_4 {
 		font-size: 120%;
-	}	
+	}
 }
 @media only screen and (min-width: 992px) {
 	[class*="col-"] {

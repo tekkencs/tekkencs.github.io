@@ -41,3 +41,10 @@ $(function(){
 	    $('.bryantt').fadeOut(200); 
 	});
 });
+$(function(){
+	$('.twittertooltip').hover(function() { 
+	    $('.twittervid').fadeIn(150); 
+	}, function() { 
+	    $('.twittervid').fadeOut(200); 
+	});
+});
