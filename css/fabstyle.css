@@ -1,7 +1,6 @@
 body {
 	background: #174172;
 	background: linear-gradient(-90deg, #0b1f31, #174172);
-	-webkit-text-size-adjust: none;
 }
 @font-face {
 	font-family: 'Tar-ita';
@@ -366,10 +365,10 @@ img#select {
 .bryantt {
 	display: none;
     background: #C8C8C8;
-    margin-left: 28px; /*pos left */
-    margin-top: -530px; /*pos left */
     padding: 10px;
     position: absolute;
+    left: 0;
+    right: 0;
     z-index: 1000;
     width:500px;
     background-color: #3f3c51;
@@ -387,8 +386,6 @@ img#select {
 .twittervid {
 	display: none;
     background: #C8C8C8;
-    margin-left: 28px; /*pos left */
-    margin-top: -530px; /*pos left */
     padding: 10px;
     position: absolute;
     z-index: 1000;
@@ -396,10 +393,6 @@ img#select {
     background-color: #3f3c51;
     border: 1px solid rgba(118,193,201,0.4);
     border-radius: 2px;
-}
-#twitterinx {
-	position: absolute;
-	left: 30%
 }
 @media only screen and (max-width: 800px) {	
 	#punishlookupinput {

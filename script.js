@@ -34,17 +34,18 @@ $(document).ready(function(){
 		$(this).toggleClass("textborder")
 	})
 });
-$(function(){
-	$('.showtooltip').hover(function() { 
-	    $('.bryantt').fadeIn(150); 
-	}, function() { 
-	    $('.bryantt').fadeOut(200); 
+$(document).ready(function(){
+	$('.showtooltip').hover(function(e) { 
+	    $('.bryantt:hidden').css({'top': e.clientY + 650, 'left': e.clientX - 750}).fadeIn(150); 
+	}), $('.showtooltip').mouseleave(function() { 
+	    $('.bryantt').fadeOut(200);
 	});
 });
-$(function(){
-	$('.twittertooltip').hover(function() { 
-	    $('.twittervid').fadeIn(150); 
-	}, function() { 
-	    $('.twittervid').fadeOut(200); 
+
+$(document).ready(function(){
+	$('.twittertooltip').hover(function(e) { 
+	    $('.twittervid:hidden').css({'top': e.clientY - 50, 'left': e.clientX - 850}).fadeIn(150); 
+	}), $('.twittervid').mouseleave(function() { 
+	    $('.twittervid').fadeOut(300); 
 	});
 });
