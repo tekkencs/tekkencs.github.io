@@ -355,7 +355,9 @@ img#select {
 	display: flex;
  	align-items: center;
  	justify-content: center;
- 	min-width: 22em
+ 	min-width: 22em;
+ 	position: relative;
+ 	border-collapse: collapse;
 }
 .seelongercombo table th {
 	text-align: start;
@@ -395,6 +397,10 @@ img#select {
     background-color: #3f3c51;
     border: 1px solid rgba(118,193,201,0.4);
     border-radius: 2px;
+}
+.gimseparator {
+	 border-bottom: 2px solid rgba(118,193,201,0.4);
+	 width: 20%
 }
 @media only screen and (max-width: 800px) {	
 	#punishlookupinput {

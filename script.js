@@ -44,7 +44,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$('.twittertooltip').hover(function(e) { 
-	    $('.twittervid:hidden').css({'top':e.pageY, 'left':e.pageX}).fadeIn(150); 
+	    $('.twittervid:hidden').css({'top':e.pageY + 30, 'left':e.pageX}).fadeIn(150); 
 	}), $('.twittervid').mouseleave(function() { 
 	    $('.twittervid').fadeOut(300); 
 	});
