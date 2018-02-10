@@ -402,6 +402,14 @@ img#select {
 	 border-bottom: 2px solid rgba(118,193,201,0.4);
 	 width: 20%
 }
+.inlineblock_left ul {
+	height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    list-style:none;
+    position: relative;
+    top: 25px
+}
 @media only screen and (max-width: 800px) {	
 	#punishlookupinput {
 		width: 77%
@@ -421,6 +429,7 @@ img#select {
 		display: flex;
 		flex-direction: column;
 		margin-left: -10%;
+		position: relative;
 	}
 	.inlineblock:nth-child(2) > .inlineblock_img {
 		width: 60%;
@@ -439,8 +448,8 @@ img#select {
 	.inlineblock_right {
 		width: 10%;
 		position: absolute;
-		left: 55%;
-		top: 35%;
+		left: 62%;
+		top: 75%;
 	}
 	#trillgasm {
 		left: -180%
@@ -518,15 +527,14 @@ img#select {
 	.inlineblock_left {
 		display: block;
 		width: 120%;
-		position: relative;
 		left: -55%;
-		top: -15%;
+		top: -5px;
 	}
 	.inlineblock_right {
 		width: 10%;
 		position: absolute;
-		left: 55%;
-		top: 35%;
+		left: 59%;
+		top: 65%;
 	}
 	.seelongercombo {
 		width: 84%;
@@ -563,6 +571,9 @@ img#select {
 	.whilestanding p:nth-child(1) {
 		position: relative;
 		left: -8px;
+	}
+	#return a {
+		margin-top: 1.8%;
 	}
 }
 @media only screen and (min-width: 500px) {
@@ -620,14 +631,6 @@ img#select {
 	.whilestanding ul{		
 		margin-left: -68px;
 	}	
-	.inlineblock_left ul {
-		height: 100px;
-	    overflow-x: hidden;
-	    overflow-y: auto;
-	    list-style:none;
-	    position: relative;
-	    top: 25px
-	}
 	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3, #slidetext_4, #slide_4 {
 		font-size: 120%;
 	}
