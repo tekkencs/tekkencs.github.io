@@ -37,7 +37,6 @@ a:active {
     box-sizing: border-box;
 }
 div {
-	position: relative;
 	margin-right: auto;
 	margin-left: auto;
 	text-decoration: none;

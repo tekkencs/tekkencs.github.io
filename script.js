@@ -36,7 +36,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
 	$('.showtooltip').hover(function(e) { 
-	    $('.bryantt:hidden').css({'top': e.clientY + 650, 'left': e.clientX - 750}).fadeIn(150); 
+	    $('.bryantt:hidden').css({'top': e.clientY, 'left': e.clientX}).fadeIn(150); 
 	}), $('.showtooltip').mouseleave(function() { 
 	    $('.bryantt').fadeOut(200);
 	});
