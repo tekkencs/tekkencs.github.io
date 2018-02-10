@@ -318,6 +318,9 @@ img#select {
 	top: -0.12%;
 	opacity: 0.6
 }
+.standing {
+	position: relative;
+}
 .standing table {
 	width:40%;
 	empty-cells: show;
@@ -430,8 +433,8 @@ img#select {
 	.inlineblock_right {
 		width: 10%;
 		position: absolute;
-		left: 59%;
-		top: 72%;
+		left: 55%;
+		top: 35%;
 	}
 	#trillgasm {
 		left: -180%
@@ -443,7 +446,7 @@ img#select {
 	#guide {
 		position: absolute;
 		left: 120%;
-		top: 80%;
+		top: 20%;
 		width: 10%;
 		height: auto;
 	}
@@ -494,29 +497,30 @@ img#select {
 		width: 100%;
 	}
 	.inlineblock {
-		width: 80%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
+		margin-left: -10%;
 	}
 	.inlineblock:nth-child(2) > .inlineblock_img {
-		width: 80%;
-		margin: 20px;
+		width: 60%;
 		order: -1;
-		margin-bottom: -13px;
-		left: 25%;
+		margin-bottom: -27px;
+		margin-top: 25px;
+		margin-left: 20%
 	}
 	.inlineblock_left {
 		display: block;
-		width: 70%;		
-		height: 100px;
-	    overflow-x: hidden;
-	    overflow-y: auto;
+		width: 120%;
 		position: relative;
-		left:2%;
-		top: 15px	}
+		left: -55%;
+		top: -15%;
+	}
 	.inlineblock_right {
 		width: 10%;
-		right: -6%
+		position: absolute;
+		left: 55%;
+		top: 35%;
 	}
 	.seelongercombo {
 		width: 84%;
@@ -553,10 +557,7 @@ img#select {
 	.whilestanding p:nth-child(1) {
 		position: relative;
 		left: -8px;
-	}	
-	#twitterinx {
-	left: 0.2%
-}
+	}
 }
 @media only screen and (min-width: 500px) {
 	[class*="col-"] {
@@ -699,9 +700,9 @@ img#select {
 	}
 	#guide {
 		position: absolute;
-		left: 90%;
-		top: 80%;
-		width: 4%;
+		left: 65%;
+		top: 5%;
 		height: auto;
+		transform: scale(0.15);
 	}
 }

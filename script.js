@@ -36,7 +36,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
 	$('.showtooltip').hover(function(e) { 
-	    $('.bryantt:hidden').css({'top': e.clientY, 'left': e.clientX}).fadeIn(150); 
+	    $('.bryantt:hidden').css({'top':e.pageY -550, 'left':e.pageX -200}).fadeIn(150); 
 	}), $('.showtooltip').mouseleave(function() { 
 	    $('.bryantt').fadeOut(200);
 	});
@@ -44,7 +44,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$('.twittertooltip').hover(function(e) { 
-	    $('.twittervid:hidden').css({'top': e.clientY - 50, 'left': e.clientX - 850}).fadeIn(150); 
+	    $('.twittervid:hidden').css({'top':e.pageY, 'left':e.pageX}).fadeIn(150); 
 	}), $('.twittervid').mouseleave(function() { 
 	    $('.twittervid').fadeOut(300); 
 	});
