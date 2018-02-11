@@ -35,17 +35,30 @@ $(document).ready(function(){
 	})
 });
 $(document).ready(function(){
-	$('.showtooltip').hover(function(e) { 
-	    $('.bryantt:hidden').css({'top':e.pageY -550, 'left':e.pageX -200}).fadeIn(150); 
-	}), $('.showtooltip').mouseleave(function() { 
-	    $('.bryantt').fadeOut(200);
+	var timer;
+	$(".showtooltip").hover(function (e) {
+	    $('.bryantt:hidden').css({'top':e.pageY -550, 'left':e.pageX -200}).fadeIn(150);
+	});
+	$(".bryantt,.showtooltip").hover(function (e) {
+	    if (timer) timer = clearTimeout(timer)
+	}).mouseleave(function (e) {
+	    timer = setTimeout(function () {
+	        console.log(e.target);
+	        $(".bryantt").fadeOut(200);
+	    }, 100)
 	});
 });
-
 $(document).ready(function(){
-	$('.twittertooltip').hover(function(e) { 
-	    $('.twittervid:hidden').css({'top':e.pageY + 30, 'left':e.pageX}).fadeIn(150); 
-	}), $('.twittervid').mouseleave(function() { 
-	    $('.twittervid').fadeOut(300); 
+	var timer;
+	$(".twittertooltip").hover(function (e) {
+	    $('.twittervid:hidden').css({'top':e.pageY + 30, 'left':e.pageX}).fadeIn(150);
+	});
+	$(".twittervid,.twittertooltip").hover(function (e) {
+	    if (timer) timer = clearTimeout(timer)
+	}).mouseleave(function (e) {
+	    timer = setTimeout(function () {
+	        console.log(e.target);
+	        $(".twittervid").fadeOut(200);
+	    }, 100)
 	});
 });
