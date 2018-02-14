@@ -51,7 +51,8 @@ $(document).ready(function(){
 $(document).ready(function(){
 	var timer;
 	$("[class^=twittertooltip]").hover(function (e) {
-	    $('[class^=twittervid]:hidden').css({'top':e.pageY + 30, 'left':e.pageX}).fadeIn(150);
+		  var ttipnum = $(this).attr('class').match(/\d+$/)[0];
+	    $('.twittervid'+ttipnum+":hidden").css({'top':e.pageY + 30, 'left':e.pageX}).fadeIn(150);
 	});
 	$("[class^=twittervid],[class^=twittertooltip]").hover(function (e) {
 	    if (timer) timer = clearTimeout(timer)
