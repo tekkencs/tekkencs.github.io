@@ -52,7 +52,7 @@ $(document).ready(function(){
 	var timer;
 	$("[class^=twittertooltip]").hover(function (e) {
 		  var ttipnum = $(this).attr('class').match(/\d+$/)[0];
-	    $('.twittervid'+ttipnum+":hidden").css({'top':e.pageY + 30, 'left':e.pageX}).fadeIn(150);
+	    $(".twittervid"+ttipnum+":hidden").css({'top':e.pageY + 30, 'left':e.pageX}).fadeIn(150);
 	});
 	$("[class^=twittervid],[class^=twittertooltip]").hover(function (e) {
 	    if (timer) timer = clearTimeout(timer)
