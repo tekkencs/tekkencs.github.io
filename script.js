@@ -50,15 +50,15 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
 	var timer;
-	$(".twittertooltip").hover(function (e) {
-	    $('.twittervid:hidden').css({'top':e.pageY + 30, 'left':e.pageX}).fadeIn(150);
+	$("[class^=twittertooltip]").hover(function (e) {
+	    $('[class^=twittervid]:hidden').css({'top':e.pageY + 30, 'left':e.pageX}).fadeIn(150);
 	});
-	$(".twittervid,.twittertooltip").hover(function (e) {
+	$("[class^=twittervid],[class^=twittertooltip]").hover(function (e) {
 	    if (timer) timer = clearTimeout(timer)
 	}).mouseleave(function (e) {
 	    timer = setTimeout(function () {
 	        console.log(e.target);
-	        $(".twittervid").fadeOut(200);
+	        $("[class^=twittervid]").fadeOut(200);
 	    }, 100)
 	});
 });

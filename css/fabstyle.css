@@ -387,7 +387,7 @@ img#select {
     transform: scale(1.054);
     margin-top: -3px
 }
-.twittervid {
+[class^=twittervid] {
 	display: none;
     background: #C8C8C8;
     padding: 10px;
@@ -418,7 +418,7 @@ img#select {
 		width: 78%;
 		position: relative;
 		left: 8%;
-		word-wrap: break-word;
+		word-wrap: break-word;		
 	}	
 	.starburst {
 		width: 58%;
@@ -661,7 +661,7 @@ img#select {
 	}
 	.seecombo {
 		width: 45%;
-		min-width: 25em
+		min-width: 25em;
 	}
 	.sublongercombo {
 		width: 45%;
