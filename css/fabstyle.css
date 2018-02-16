@@ -472,6 +472,12 @@ img#select {
 	}
 	.standing table {
 		left:18%
+	}	
+	#guide {
+		position: absolute;
+		left: 80%;
+		top: 15%;
+		width: 5%;
 	}
 }
 @media only screen and (max-width: 500px) {
@@ -627,12 +633,6 @@ img#select {
 	#slidetext, #slide, #slidetext_1, #slide_1, #slidetext_2, #slide_2, #slidetext_3, #slide_3, #slidetext_4, #slide_4 {
 		font-size: 120%;
 	}	
-	#guide {
-		position: absolute;
-		left: 80%;
-		top: 15%;
-		width: 5%;
-	}
 }
 @media only screen and (min-width: 992px) {
 	[class*="col-"] {
